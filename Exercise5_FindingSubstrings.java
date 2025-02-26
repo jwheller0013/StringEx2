@@ -18,7 +18,13 @@ public class Exercise5_FindingSubstrings {
         
         // TODO: Check if the word appears in the sentence using contains()
         // or indexOf() methods
-        
+        if (sentence.contains(word)){
+            System.out.print("\"Sentence\" contains \"" + word + "\".");
+        }
+        else{
+            System.out.print("\"Sentence\" does not contain \"" + word + "\".");
+        }
+
         scanner.close();
     }
 }
