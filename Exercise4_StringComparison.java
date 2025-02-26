@@ -19,7 +19,20 @@ public class Exercise4_StringComparison {
         
         // TODO: Compare the strings using equals() and equalsIgnoreCase()
         // and print whether they are equal or not in both cases
-        
+        if (str1.equals(str2)) {
+            System.out.println("They are the same.");
+        }
+            else{
+                System.out.println("They are not the same.");
+            }
+
+        if (str1.equalsIgnoreCase(str2)) {
+            System.out.print("They are the same if you adjust Upper and Lower case.");
+        }
+        else{
+            System.out.print("They are not the same even if adjusted for Upper and Lower case.");
+        }
+
         scanner.close();
     }
 }
