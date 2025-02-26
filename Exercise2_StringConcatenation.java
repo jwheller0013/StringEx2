@@ -20,7 +20,7 @@ public class Exercise2_StringConcatenation {
         // using the + operator or concat() method
 
         System.out.print(firstName.concat(" "+lastName));
-        
+        //space needed
         scanner.close();
     }
 }
